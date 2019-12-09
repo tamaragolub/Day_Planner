@@ -1,0 +1,24 @@
+Goals:
+    - calendar 
+    - 
+
+Things I need (files)(front):
+    html:
+        10 rows
+        3 columns 
+            -time
+                9am to 5pm
+            -text field
+            -save button
+        display current date
+
+
+Things I need to happen (specific actions)(back):
+    js:
+        -save button to store user input to localStorage
+            1) grab the text from text input field
+            2) save it to the local storage
+        -connect to api to display current date - moment.js
+        -change color depending on the time of day
+            past, present, future
+        -load previous input from local storage
