@@ -16,7 +16,7 @@ Things I need (files)(front):
 Things I need to happen (specific actions)(back):
     js:
         -save button to store user input to localStorage
-            1) grab the text from text input field
+            1) grab the text from text input field 
             2) save it to the local storage
         -connect to api to display current date - moment.js
         -change color depending on the time of day
