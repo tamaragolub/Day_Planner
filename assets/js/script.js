@@ -1,7 +1,8 @@
 $(".save-btn").on("click", function(){
-
+// retrieving the ID of the input box
     var inputID = $(this).attr("data-inputID");
 
+    // got the value of the input box, using the ID we retrieved
     var inputValue = $(inputID).val();
 
     console.log(inputValue);
